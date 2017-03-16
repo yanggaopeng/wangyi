@@ -1,0 +1,168 @@
+			body{
+				padding: 0;
+				box-sizing: border-box;
+				margin: 0;
+			}
+			.footer-all{
+				width: 100%;
+				height:300px;
+				background-color: #474443;
+			}
+			.footer_all{
+				width: 1205px;
+				height: 300px;
+				background-color: #474443;
+				margin: 0 auto;
+			}
+			.footer_left{
+				width: 430px;
+				height: 298px;
+				margin-left: 20px;
+				float: left;
+				position: relative;
+			}
+			.footer_logo{
+				background-image: url(../img/Footer_img1.png);
+				background-repeat: no-repeat;
+				width: 265px;
+				height: 50px;
+				position: absolute;
+				margin-top: 40px;
+			}
+			.footer_left span{
+				position: absolute;
+				margin-top: 110px;
+				color: lightgray;
+				font-size: 14px;
+				line-height: 25px;
+			}
+			.about{
+				width: 430px;
+				height: 60px;
+				float: left;
+				margin-top: 190px;
+				color: white;
+				font-size: 14px;
+			}
+			.about p{
+				float: left;
+			}
+			.footer_sina,.footer_renren,.footer_weixin,.footer_youxin{
+				float: left;
+				width: 20px;
+				height: 20px;
+				margin-top: 3px;
+				padding-left: 5px;
+			}
+			.footer_sina{
+				background-image: url(../img/Footer_Img2.png);
+				background-repeat: no-repeat;
+				background-position: -33px -52px;
+			}
+			.footer_renren{
+				background-image: url(../img/Footer_Img2.png);
+				background-repeat: no-repeat;
+				background-position: -33px -72px;
+			}
+			.footer_youxin{
+				background-image: url(../img/Footer_Img2.png);
+				background-repeat: no-repeat;
+				background-position: -4px -72px;
+				cursor: pointer;
+			}
+			.footer_weixin{
+				background-image: url(../img/Footer_Img2.png);
+				background-repeat: no-repeat;
+				background-position: -4px -52px;
+				cursor: pointer;
+			}
+			.footer_left .copy{
+				position: absolute;
+				margin-top: 250px;
+				font-size: 14px;
+				color: darkgray;
+			}
+			.footer_right{
+				float: right;
+				width: 509px;
+				height: 100px;
+				margin-top: 100px;
+			}
+			.footer_right ul li{
+				float: left;
+				font-size: 12px;
+				color: lightgray;
+				list-style: none;
+				padding-left: 10px;
+			}
+			.footer_right .mobile{
+				width: 300px;
+				height: 40px;
+				float: right;
+				margin-top: 10px;
+			}
+			.footer_right .mobile p{
+				float: left;
+				font-size: 12px;
+				color: lightgray;
+			}
+			.footer_right .iphone{
+				background-image: url(../img/header_img.png);
+				background-repeat: no-repeat;
+				background-size: 135px;
+				width: 110px;
+				height: 30px;
+				float: left;
+				background-position: 0px -19px;
+				cursor: pointer;
+			}
+			.footer_right .android{
+				background-image: url(../img/header_img.png);
+				background-repeat: no-repeat;
+				background-size: 135px;
+				width: 110px;
+				height: 30px;
+				float: left;
+				background-position: 0px -51px;
+				cursor: pointer;
+			}
+			a{
+				color: lightgray;
+				text-decoration: none;
+			}
+			a:hover{
+				text-decoration: underline;
+			}
+			.erweima1{
+				width: 143px;
+				height: 172px;
+				position: absolute;
+				background-color: white;
+				margin-top: 15px;
+				margin-left: 80px;
+				display: none;
+				background-image: url(../img/erweima.png);
+				background-repeat: no-repeat;
+				background-size: 130px;
+				background-position: top center;
+			}
+			.erweima1 span,.erweima2 span{
+				font-size: 14px;
+				color: darkgray;
+				position: absolute;
+				margin-top: 140px;
+				padding-left: 10px;
+			}
+			.erweima2{
+				width: 143px;
+				height: 172px;
+				position: absolute;
+				background-color: white;
+				margin-top: 15px;
+				margin-left: 100px;
+				display: none;
+				background-image: url(../img/erweima.png);
+				background-repeat: no-repeat;
+				background-size: 130px;
+				background-position: top center;
+			}

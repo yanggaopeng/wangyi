@@ -1,0 +1,261 @@
+body, div, dl, dt, dd, ul,input,label, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p,span, blockquote, th, td{
+	padding: 0;
+	margin: 0;
+	font-family: "Arial","Hiragino Sans GB", '微软雅黑', "Helvetica", "sans-serif";
+	list-style: none;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #EFEFEF;
+}
+a{
+	text-decoration: none;
+	color: #999;
+}
+.All{
+	width: 1000px;
+	margin: 0 auto;
+}
+header{
+	height: 120px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: 0 center;
+	background-image: url(../img/wanyyx.PNG);
+}
+.header_right{
+	width: 150px;
+	height: 20px;
+	position: absolute;
+	top: 50%;
+	right: 0;
+}
+.header_right span{
+	color: #999;
+}
+.header_right span,.header_right a{
+	font-size: 17px;
+	font-weight:600;
+}
+.header_right a,.yz_tittle{
+	color: #ca5252;
+}
+.header_right a:hover{
+	color: #ad4747;
+}
+.All_content{
+	width: 1000px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.yz_tittle{
+	width: 850px;
+	height: 80px;
+	line-height: 120px;
+	margin: 0 auto;
+	font-size: 23px;
+}
+.Form_con{
+	width: 900px;
+	margin: 0 auto;	
+	margin-top: 50px;
+	overflow: hidden;
+}
+.Form_con li{
+	height: 40px;
+	margin-bottom: 20px;
+	line-height: 40px;
+}
+.Ul_left li{
+	text-align: right;
+}
+.Ul_left,.Ul_center,.Ul_right{
+   float: left;
+}
+.Ul_left{
+	width: 300px;
+}
+.Ul_center{
+	width: 320px;
+}
+.Ul_right{
+	width: 280px;
+}
+
+.Ul_center li{
+	height: 38px;
+   border: 1px solid #EBEBEB;
+}
+.Ul_center li input{
+	height: 22px;
+	width: 288px;
+	border: none;
+	outline: none;
+	margin-top: 8px;
+	float: left;
+	text-indent: 5px;
+	font-size: 16px;
+}
+#loo{
+	line-height: 30px;
+}
+.cacha{
+	float: left;
+	width: 30px;
+	height: 22px;
+	cursor: pointer;
+	margin-top: 8px;
+	background-position: 10px -505px;
+	background-image: url(../img/xiaotu_bg.png);
+}
+#ulc_liDL,#qiehua,#Lain{
+	height: 40px;
+	border: none;
+	position: relative;
+}
+.huadong{
+	height: 30px;
+	line-height: 32px;
+	font-size: 12px;
+	text-indent: 100px;
+	position: relative;
+	color: #999;	
+	border-radius: 26px;
+	border: 1px solid #EBEBEB;
+
+}
+
+#Images{
+	width: 72px;
+	height: 32px;
+	background-image: url(../img/yz_img.png);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.Yz_bigp{
+	width: 320px;
+	height: 100px;
+	display: none;
+	position: absolute;
+	background-image: url(../img/yz_img2.jpg);
+	top: -110px;
+	left: 0;
+}
+#Dhua{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#qiehua span{
+	height: 20px;
+	line-height: 20px;
+   font-size: 10px;
+   display: block;
+}
+.qiehua_a{
+	color: #5DBCFF;
+}
+.qiehua_b{
+	color: #999;
+}
+.Lain_lediv,.Lain_ridiv{
+	float: left;
+	border:1px solid #EBEBEB;
+}
+.Lain_lediv,#lainpt{
+    width: 180px;
+	height: 40px;
+}
+#lainpt{
+	margin: 0;
+}
+.Lain_ridiv{
+	margin-left: 10px;
+	width: 120px;
+	height: 40px;
+	cursor: pointer;
+	background-position: 0 -5px;
+	background-image: url(../img/sda.PNG);
+}
+.poo{
+	cursor: pointer;
+	background-position: -5px -3px;
+	background-image: url(../img/zhuc.PNG);
+}
+footer {
+	margin-top: 20px;
+}
+.foot_ul{
+	width: 560px;
+	color: #999;
+	overflow: hidden;
+}
+.foot_ul li{
+	margin-right: 5px;
+	float: left;
+}
+.foot_ul li a{
+	font-size: 12px;
+}
+footer div{
+	width: 200px;
+    font-size: 12px;
+    color: #999;
+}
+.foot_ul,footer div{
+	margin: 10px auto;
+}
+/*错误的情况下*/
+.cuoall,.duiall{
+	margin-left: 10px;
+	overflow: hidden;
+}
+/*.cuoall{
+	animation: loo 0.5s ease   alternate;
+}*/
+@keyframes loo{
+           from{
+	            margin-left: 0px;
+            }
+            20%{
+	           margin-left: 10px;
+            }
+            40%{
+	            margin-left: 0px;
+            }
+            60%{
+	            margin-left: 10px;
+            }
+            80%{
+	            margin-left: 0px;
+            }
+           
+            to{
+	            
+	            margin-left: 5px;
+            }
+
+		}
+.cuo_text,.Fos{
+	float: left;
+}
+.Fos,.Tus{	
+	width: 20px;
+	height: 20px;
+	margin-top: 10px;
+	background-image: url(../img/register.png);
+}
+.Fos{
+    background-position: -62px -99px;
+}
+.Tus{
+	display: block;
+	background-position: -27px -99px;
+}
+.cuo_text{
+	text-indent: 5px;
+	font-size: 12px;
+	color: red;
+}

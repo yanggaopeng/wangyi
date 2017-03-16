@@ -1,0 +1,30 @@
+body,div,img,li,ul,a{
+	margin: 0;
+	padding: 0;
+}
+#all{
+	width: 1205px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.leftAd,.rightAd{
+	float: left;
+	height: 130px;
+	position: relative;
+}
+.leftAd{
+	width: 960px;
+}
+.rightAd{
+	width: 225px;
+	margin-left: 20px;
+}
+.small_ad{
+	width: 24px;
+	height: 18px;
+	bottom: 0;
+	right: 0;
+	background-image: url(../img/bottom_img2.png);
+	position: absolute;
+}

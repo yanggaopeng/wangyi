@@ -1,0 +1,95 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td{
+	padding: 0;
+	margin: 0;
+	font-family: '微软雅黑';
+}
+.Picture_H{
+	height: 105px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.HIu{
+	width: 1205px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.Picture_H_close{
+   position: absolute;
+   top: 5px;
+   right: 5px;
+   width: 15px;
+   height: 15px;
+   cursor: pointer;
+   background: url(../img/xiaotu_bg.png) 0 -508px no-repeat;
+}
+.Picture_H_content{
+	width: 1145px;
+	margin: 0 auto;
+	padding-top: 15px;
+	color: #fff;
+
+}
+.Text{
+	font-size: 24px;
+}
+.Picture_Left,.Picture_Right,.Picture_H_content a{
+	background-repeat: no-repeat;
+	float: left;
+	text-decoration: none;
+}
+.Picture_Left a{
+	width: 90px;
+	height: 25px;
+	margin: 10px 10px 15px 0;
+}
+.Picture_Right{
+	margin-left: 10px;
+}
+.Picture_Right a{
+	width: 50px;
+	height: 25px;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 5px;
+	line-height: 25px;
+	margin: 10px 10px 15px 0;
+}
+.PLA_1{
+	background-image: url(../img/wx.png);
+}
+.PLA_2,.PLA_3,.PLA_4,.PLA_5{
+    background-image: url(../img/Footer_Img.png);
+}
+.PLA_2{
+	background-position: -10px -13px;
+}
+.PLA_2:hover{
+	background-position: -10px -53px;
+}
+.PLA_3{
+	background-position: -112px -13px;
+}
+.PLA_3:hover{
+	background-position: -112px -53px;
+}
+.PLA_4{
+	background-position: -214px -13px;
+}
+.PLA_4:hover{
+	background-position: -214px -53px;
+}
+.PLA_5{
+	background-position: -10px -277px;
+}
+.PLA_5:hover{
+	background-position: -115px -277px;
+}
+.PRA_1{
+	background-color: #39a030;
+}
+.PRA_2{
+	background-color: #ff9600;
+}

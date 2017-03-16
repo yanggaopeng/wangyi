@@ -1,0 +1,181 @@
+.weizhuanye{
+	width: 1203px;
+	height: 132px;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	margin:0px auto;
+	position: relative;
+	margin-bottom: 25px;
+}
+.weizhuanye_content{
+	padding: 36px 0px;
+	height: 61px;
+}
+.weizhuanye_title{
+	background: url(../img/tinywei12.png) no-repeat;
+	background-position: center 5px;
+	height: 61px;
+	width: 235px;
+	float: left;
+	color: #2187E0;
+	text-align: center;
+	font-size: 10px;
+	line-height: 100px;
+	cursor: pointer;
+}
+.weizhuanye_content .weizhuanye_text{
+	width: 968px;
+	height: 61px;
+	float: left;
+	overflow: hidden;
+}
+.weizhuanye_content ul{
+	width: 9999px;
+	padding: 0px;
+	margin: 0px;
+}
+.weizhuanye_content ul li{
+	list-style: none;
+	float: left;
+	width: 221px;
+	height: 61px;
+	padding: 0px 10px;
+	border-left: 1px solid #DDDDDD;
+	cursor: pointer;
+	font-family:"Arial","Hiragino Sans GB", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif";
+}
+.weizhuanye_content ul li p{
+	font-size: 12px;
+	margin: 0px;
+	margin-left: 62px;	
+	color:#999999;
+}
+.weizhuanye_content ul li .big{
+	font-size: 16px;
+	margin-top: 10px;
+	color: #333333;
+}
+.weizhuanye_content ul li .big:hover{
+	color:#39A030;
+}
+.weizhuanye_content .bg1{
+	background: url(../img/icon_img4.png) no-repeat;
+	background-position: 33px 11px;
+}
+.weizhuanye_content .bg2{
+	background: url(../img/icon_img10.png) no-repeat;
+	background-position: 33px 11px;
+}
+.weizhuanye_content .bg3{
+	background: url(../img/icon_img13.png) no-repeat;
+	background-position: 33px 11px;
+}
+.weizhuanye_content .bg4{
+	background: url(../img/icon_img9.png) no-repeat;
+	background-position: 33px 11px;
+}
+.weizhuanye_content .bg5{
+	background: url(../img/icon_img3.png) no-repeat;
+	background-position: 33px 11px;
+}
+.weizhuanye_content .bg6{
+	background: url(../img/icon_img2.png) no-repeat;
+	background-position: 33px 11px;
+}
+.weizhuanye_content .bg7{
+	background: url(../img/icon_img8.png) no-repeat;
+	background-position: 33px 11px;
+}
+.weizhuanye_content .bg8{
+	background: url(../img/icon_img1.png) no-repeat;
+	background-position: 33px 11px;
+}
+.weizhuanye_content .bg9{
+	background: url(../img/icon_img11.png) no-repeat;
+	background-position: 33px 11px;
+}
+.weizhuanye_content .bg10{
+	background: url(../img/icon_img12.png) no-repeat;
+	background-position: 33px 11px;
+}
+.weizhuanye_content .bg11{
+	background: url(../img/icon_img7.png) no-repeat;
+	background-position: 33px 11px;
+}
+.weizhuanye_content .bg12{
+	background: url(../img/icon_img1.png) no-repeat;
+	background-position: 33px 11px;
+}
+.weizhuanye_content .bg13{
+	background: url(../img/icon_img5.png) no-repeat;
+	background-position: 33px 11px;
+}
+.weizhuanye_content .bg14{
+	background: url(../img/icon_img6.png) no-repeat;
+	background-position: 33px 11px;
+}
+.weizhuanye_content .prev,.weizhuanye_content .next{
+	height: 62px;
+	width: 15px;
+	float: left;
+	cursor:pointer;
+}
+.weizhuanye_content .prev{
+	background: url(../img/indexsprite.png);
+	background-position: 1px -68px;
+	position: absolute;
+	left: 235px;
+}
+.weizhuanye_content .next{
+	background: url(../img/indexsprite.png);
+	background-position: -26px -68px;
+	position: absolute;
+	left: 1188px;
+}
+.mianfeihaoke{
+	width: 1205px;
+	height: 205px;
+	margin: 0 auto;
+	margin-bottom:40px;
+	font-family:"Arial","Hiragino Sans GB", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif";
+}
+.mianfeihaoke div{
+	float: left;
+}
+.mianfeihaoke .mianfeihaoke_img img{
+	width: 225px;
+	height: 190px;
+	cursor: pointer;
+}
+.mianfeihaoke .mianfeihaoke_content{
+	width: 980px;
+	height: 205px;
+}
+.mianfeihaoke .mianfeihaoke_content ul{
+	list-style: none;
+	margin: 0px;
+	padding:0px;
+}
+.mianfeihaoke .mianfeihaoke_content ul li{
+	float: left;
+	margin: 0px 0px 30px 20px;
+	cursor: pointer;
+}
+.mianfeihaoke .mianfeihaoke_content ul li .Img{
+	width: 225px;
+	height: 142px;
+	margin-bottom: 2px;
+	overflow: hidden;
+}
+.mianfeihaoke .mianfeihaoke_content ul li p{
+	padding: 0px;
+	margin: 0px;
+	color:#999999;
+	font-size: 12px;
+	margin-top: 2px;
+}
+.mianfeihaoke .mianfeihaoke_content ul li .big{
+	font-size: 14px;
+	color:#333333;
+}

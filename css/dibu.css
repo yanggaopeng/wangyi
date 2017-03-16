@@ -1,0 +1,96 @@
+ul,li,div,a,body,h2{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.all{
+	width: 1205px;
+	margin: 0 auto;
+	font-family: 'Hiragino Sans GB';
+}
+.TopA{
+    height: 30px;
+    border-bottom: 1px solid #999999;
+    overflow: hidden;
+}
+a{
+	color: #333;
+    text-decoration: none;
+}
+.TopA h2{
+	width: 100px;
+	float: left;
+}
+.alianj a{	
+	margin-right: 10px;
+	line-height: 20px;
+	font-size: 13px;
+}
+.alianj{
+	margin-top: 4px;
+	float: right;
+	cursor: pointer;
+}
+.alianj a,.alianj span{
+	float: left;
+}
+.alianj span{
+	width: 18px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: -1px -1673px;
+	background-image: url(../img/xiaotu_bg.png);
+}
+.BottomA{
+	height: 20px;
+	margin-top: 25px;
+	overflow: hidden;
+}
+
+.BottomA_ula{
+	height: 100px;
+	margin-top: -8px;
+
+}
+.BottomA_ula a{
+	color: #999999;
+}
+.BottomA_ula li{
+	font-size: 15px;
+	float: left;
+	margin-right: 18px;
+	margin-top: 10px;
+}
+#Tm_hf{
+	width: 100%;
+	position: fixed;
+	top: 100%;
+	margin-top: -105px;
+	left: 0;
+}
+.BGcolor{
+	opacity: 0.6;
+	height: 105px;
+	background-color: #000;
+}
+#bigBG{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	opacity: 0.7;
+	display: none;
+	background-color: #666;
+}
+#zhuC{
+	width: 600px;
+	display: none;
+	position: absolute;
+    z-index: 1001;
+	top: 50%;
+	left: 50%;
+	margin-left: -300px;
+	/*margin-top: -150px;*/
+}

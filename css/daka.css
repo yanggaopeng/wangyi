@@ -1,0 +1,124 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+body{
+	font-family: "Arial","Hiragino Sans GB", '微软雅黑', "Helvetica", "sans-serif";
+
+}
+.all{
+	width: 1205px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.all a{
+	font-size: 13px;
+	text-decoration: none;
+	color: #333;
+}
+.all a:hover{
+	text-decoration: underline;
+}
+.adest:hover .Aspan1{
+    color: green;
+}
+.adest:hover .Aspan2{
+	background-position: -1px -1690px;
+}
+.Top{
+	overflow: hidden;
+}
+.Top h2{
+	font-size: 24px;
+	color: #333;
+	float: left;
+}
+.Top a{
+	width: 80px;
+	float: right;
+	margin-top: 10px;
+}
+.Top span{
+	float: left;
+	height: 20px;
+
+}
+.Aspan2{
+	width: 18px;
+	background-repeat: no-repeat;
+	background-position: -1px -1673px;
+	background-image: url(../img/xiaotu_bg.png);
+}
+.Aspan1{
+	margin-right: 10px;
+	line-height: 20px;
+}
+.Bottom_ul{
+	height: 240px;
+	margin-top: 10px;	
+}
+.Bottom_ul .div_li{
+	float: left;
+	width: 240px;
+	margin-left: 1px;
+	position: relative;
+}
+.Bottom{
+	height: 240px;
+}
+.JGspa{
+	color: #fff;
+}
+.Bottom_ul_div{
+	cursor: pointer;
+	position: absolute;
+	height: 30px;
+	top: 210px;
+	left: 0;
+}
+.Bottom_ul_div span{
+	float: left;
+	color: #fff;
+	height: 30px;	
+}
+.ul_div_a{	
+	line-height: 30px;
+	font-size: 18px;
+	margin-left: 10px;
+}
+.ul_div_b{
+	margin-left: 5px;
+	font-size: 14px;
+	line-height: 35px;
+}
+#uls{
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 20px;
+	
+}
+.looiu{
+	background-color: #4D94DD;
+}
+.div_li{
+	height: 240px;
+}
+
+.div_li li{
+    margin-top: 10px;
+
+}
+.div_li li a{
+	color: #fff;
+}
+.JGspa{
+    float: right;
+    font-size: 13px;
+}
+.uls a{
+	float: left;
+}
+.BottomA_ula li{
+	float: left;
+}

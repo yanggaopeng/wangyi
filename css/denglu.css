@@ -1,0 +1,276 @@
+body, div, dl, dt, dd, ul,input,label, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td{
+	padding: 0;
+	margin: 0;
+	font-family: "Arial","Hiragino Sans GB", '微软雅黑', "Helvetica", "sans-serif";
+	list-style: none;
+}
+.Denglu{
+	width: 600px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.Delu_Fa{
+	height: 32px;
+	position: relative;
+}
+.Closer{
+	width: 32px;
+	height: 32px;
+    position: absolute;
+    top: 1;
+    right: 0;
+	background-image: url(../img/xiaotu_bg.png);
+}
+.Closer:hover{
+    background-position: 0 -41px;
+}
+/*=========================*/
+.Denglu_content{
+	width: 520px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	overflow: hidden;
+	position: relative;
+}
+.DCL_up{
+	overflow: hidden;
+	height: 43px;
+	width: 380px;
+}
+.DCL_up div{
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	width: 180px;
+	height: 40px;
+	
+	float: left;
+}
+.shojDlu{
+	color: #333333;
+	border-bottom: 3px solid #2AA126;
+}
+.youxDlu{
+	color: #999999;
+	border-bottom: 3px solid #EBEBEB;
+}
+/*=================*/
+.Pic_1,.Pic_2,.Pic_q{
+	height: 30px;
+	line-height: 30px;
+	text-align: right;	
+	margin: 5px 5px 0 10px;
+	background-repeat: no-repeat;
+	background-image: url(../img/register_img.png);
+}
+.Pic_1{
+	width: 55px;
+	color: #999999;		
+	background-position: 0 -75px;
+}
+.Pic_2,.Pic_q,.ZCsj1,.ZCsj2{
+	width: 30px;	
+}
+.Pic_q{
+	background-position: 0 -8px;
+}
+.Pic_2{
+	background-position: 0 -43px;
+}
+.Pic_1,.S_J,.Pic_2,.Pic_q{
+	float: left;
+}
+.DCL_down{
+	margin-top: 30px;
+	width: 400px;
+	float: left;
+	border-right: 1px solid #EBEBEB;
+}
+
+input{
+	outline: none;
+	border: none;
+	height: 25px;
+	font-size: 15px;
+	color: #333333;	
+	margin: 7px 5px 0 5px;
+}
+.shoH{
+	width: 358px;
+	height: 40px;
+	margin-bottom: 20px;
+	border: 1px solid #999999;
+}
+.del{
+	text-align: center;
+	line-height: 40px;
+	border: none;
+	font-size: 20px;
+	background-color: #59B549;
+	cursor: pointer;
+	color: #fff;
+	margin: 0;
+}
+.pone{
+	margin-top: 10px;
+	margin-bottom: 50px;
+	font-size: 13px;
+	overflow: hidden;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+.asd{
+	float: left;
+	margin-left: 10px;
+}
+label{
+    width: 130px;
+    height: 20px;
+    float: left;
+    display: inline-block;	
+	border-right: 1px solid #999999;
+}
+#Inp{
+	width: 20px;	
+	margin: 0;
+	height: 20px;
+}
+label span,#Inp{
+	
+	float: left;
+}
+label span{
+	margin-left: 20px;
+	float: left;
+	color: #999;
+	
+}
+
+label.asd{
+	float: left;
+}
+.zas{
+	cursor: pointer;
+	float: right;
+	margin-right: 10px;
+	color: #2AA126;
+}
+.piQ{
+	width: 90px;
+	margin: 0 auto;
+}
+.Denglu_cont_right{
+	width: 100px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin:50px 0 0 19px;
+}
+.piQ a{
+	display: block;
+	width: 90px;
+	height: 25px;
+	margin-bottom: 15px;
+}
+.Drp_a1{
+	background-image: url(../img/weixin_img.png);
+}
+.Drp_a2,.Drp_a3,.Drp_a4,.Drp_a5{
+	background-image: url(../img/Footer_Img.png);
+}
+.Drp_a2{
+	background-position: -10px -12px;
+}
+.Drp_a2:hover{
+	background-position: -10px -52px;
+}
+.Drp_a3{
+	background-position: -112px -12px;
+}
+.Drp_a3:hover{
+	background-position: -112px -52px;
+}
+.Drp_a4{
+	background-position: -214px -12px;
+}
+.Drp_a4:hover{
+	background-position: -214px -52px;
+}
+.Drp_a5{
+	background-position: -11px -276px;
+}
+.Drp_a5:hover{
+	background-position: -116px -276px;
+}
+.huoxu{
+	width: 20px;
+	height: 20px;
+	color: #999;
+	position: absolute;
+	top: 100px;
+	left: -27px;
+	background-color: #fff;
+}
+/*手机注册*/
+#PhoneZC{
+	width: 520px;
+	margin: 0 auto;
+}
+.PhoneZC_Top{
+	font-size: 24px;
+	color: #444444;
+	height: 50px;
+	border-bottom: 3px solid #D8D8D8;
+}
+.PhoneZC_Bottom{
+	width: 360px;
+	margin: 30px auto; 
+}
+.YZma{
+	height: 45px;
+	border: none;
+}
+.ZCsj2{
+	background-position: 0 -105px;
+}
+.YZma_left{
+	width: 200px;
+}
+.YZma_left,.YZma_right{	
+	height: 40px;
+	float: left;
+	border: 1px solid #999999;
+}
+.YZma_right{
+	width: 138px;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 16px;
+	color: #39A030;
+	cursor: pointer;
+	border: 1px solid #39A030;
+}
+.chad{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-top: 5px;
+	display: none;
+	background-image: url(../img/xiaotu_bg.png);
+}
+.YZma_left_text{
+	float: left;
+	width: 115px;
+	height: 25px;
+	margin: 7px 5px 0 5px;
+}
+#sjhdl{
+	height: 50px;
+	font-size: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #999;
+}
+

@@ -1,0 +1,188 @@
+.body_content{
+	width: 1205px;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-family: "Arial","Hiragino Sans GB", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif";
+}
+.body_content .IT,.body_content .design,.body_content .job_content,.body_content .life_content,.body_content .language_content,.body_content .school_content,.body_content .exam_content,.body_content .law_content{
+	height: 447px;
+	margin-bottom: 40px;
+}
+.body_content .title{
+	height: 27px;
+	padding: 0 0 10px 0;
+}
+.body_content .title h2{
+	font-size: 24px;
+	line-height: 1;
+	color:#333;
+	float: left;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+.body_content .title .text{
+	margin-top: 7px;
+	margin-left: 15px;
+	line-height: 20px;
+	color: #666;
+	float: left;
+	text-decoration: none;
+	font-size: 14px;
+}
+.body_content .title .text:hover{
+	color: #39A030;
+}
+.body_content .title .more{
+	display: block;
+	width: 47px;
+	height: 20px;
+	margin-top: 7px;
+	float: right;
+	color: #333;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 20px;
+	background: url(../img/xiaotu_bg.png) no-repeat;
+	background-position: 30px -1673px;
+}
+.body_content .title .more:hover{
+	color: #39A030;
+	background-position:30px -1690px;
+}
+.body_content .IT_content,.body_content .design_content,.body_content .job_content,.body_content .life_content,.body_content .language_content,.body_content .school_content,.body_content .exam_content,.body_content .law_content{
+	height: 410px;
+}
+.body_content .left{
+	width: 980px;
+	height: 410px;
+	float: left;
+}
+.body_content .right{
+	width: 225px;
+	height: 390px;
+	float: right;
+}
+.body_content .list1{
+	width: 470px;
+	height: 184px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+}
+.body_content .list4{
+	width: 225px;
+	height: 390px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+}
+.body_content .list2{
+	width: 225px;
+	height: 185px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+	cursor: pointer;
+}
+.body_content .Img{
+	width: 225px;
+	height: 142px;
+	overflow: hidden;
+}
+.body_content p{
+	margin: 0px;
+	padding: 0px;
+}
+.body_content .p_big{
+	color:#333;
+	margin-top: 5px;
+	height: 1.4em;
+	font-size: 14px;
+}
+.body_content .p_small{
+	line-height: 20px;
+	height: 23px;
+	color: #999;
+	font-family: 微软雅黑;
+	font-size: 12px;
+}
+.body_content .top{
+	width: 185px;
+	height: 102px;	
+	padding: 20px;
+}
+.body_content .top ul{
+	margin: 0px;
+	padding: 0px;
+}
+.body_content .top ul li{
+	width: 185px;
+	height: 28px;
+	line-height: 28px;
+	color: #fff;
+	list-style: none;
+	font-size: 14px;
+}
+.body_content .top ul li a{
+	color:#fff;
+	text-decoration: none;
+}
+.body_content .top ul li a:hover{
+	text-decoration: underline;
+}
+.body_content .bottom{
+	width: 225px;
+	height: 248px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.body_content .IT_content .top{
+	background: #4bbc93;
+}
+.body_content .design_content .top{
+	background:#e19932;
+}
+.body_content .job_content .top{
+	background: #4c93dc;
+}
+.body_content .life_content .top{
+	background: #ab7fd5;
+}
+.body_content .language_content .top{
+	background: #eb7b7c;
+}
+.body_content .school_content .top{
+	background: #c9aa18;
+}
+.body_content .exam_content .top{
+	background: #78c8c9;
+}
+.body_content .law_content .top{
+	background: #93ae07;
+}
+.body_content .teacher{
+	float: right;
+	background-color: rgba(0,0,0,0.5);
+	position: relative;
+	bottom: 23px;
+	font-size: 12px;
+	height: 19px;
+	width: 60px;
+	color: #fff;
+	text-align: center;
+	line-height: 19px;
+}
+.body_content .dujia{
+	width: 50px;
+	height: 50px;
+	background: url(../img/dujia_bg.png) no-repeat;
+	background-position: -65px -80px;
+	float: left;
+	position: relative;
+	bottom: 147px;
+}

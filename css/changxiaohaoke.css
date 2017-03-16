@@ -1,0 +1,144 @@
+@charset "utf-8";
+*{
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+	list-style:none;
+}
+img{
+	border:none;
+}
+/*总体*/
+.changxiaohaoke{
+	width:1205px;
+	margin:44px auto;
+}
+/*title*/
+.changxiaohaoke .title{
+	width:1205px;
+	height:40px;
+}
+.changxiaohaoke .title-left{
+	float:left;
+	margin-left:10px;
+}
+.changxiaohaoke .title-left a{
+	height:44px;
+	line-height:44px;
+	color:#333333;
+	cursor:pointer;
+	text-decoration:none;
+}
+.changxiaohaoke .title-right{
+	float:right;
+}
+.changxiaohaoke .title-right a{
+	float:left;
+	width:50px;
+	height:24px;
+	line-height:24px;
+	color:#ccc;
+	font-size:14px;
+	cursor:pointer;
+	margin-top: 15px;
+	font-weight:bold;
+	background:url(../img/xiaotu_bg.png) no-repeat 31px -1670px;
+	text-decoration:none;
+}
+.changxiaohaoke .title-right a:hover{
+	color:#4AB26C;
+	background:url(../img/xiaotu_bg.png) no-repeat 31px -1688px;
+}
+/*center内容*/
+.changxiaohaoke .center{
+	width:1205px;
+	overflow:hidden;
+}
+/*center 左*/
+.changxiaohaoke .center-left{
+	float:left;
+	width:210px;
+	margin-right:7px;
+	overflow:hidden;
+}
+/*center 中*/
+.changxiaohaoke .center-middle{
+	float:left;
+	width:720px;
+	margin:0px 22px 0px 22px;
+}
+.changxiaohaoke .freehand{
+	float:left;
+	width:226px;
+	margin-right:14px;
+}
+.changxiaohaoke .freehand-bottom{
+	margin-bottom:32px;
+}
+.changxiaohaoke .freehand-top{
+	height:168px;
+}
+.changxiaohaoke .freehand-top-img{
+	width:225px;
+	height:143px;
+	overflow:hidden;
+}
+.changxiaohaoke .freehand-top-img1{
+	position:relative;
+	left:0px;
+	top:-147px;
+	width:51px;
+	height:51px;
+	background:url(../img/dujia_bg.png) no-repeat;
+	background-position: -65px -80px;
+}
+.changxiaohaoke .puplic a{
+	height:20px;
+	line-height:20px;
+	font-size:13px;
+	cursor:pointer;
+	color:#333;
+}
+.changxiaohaoke .XM a{
+	color:#ccc;
+	font-weight:14px;
+}
+.changxiaohaoke .money{
+	width:82px;
+	margin-top:4px;
+	height:25px;
+	line-height:25px;
+	color:#FF4536;
+	font-weight:bold;
+	cursor:pointer;
+}
+/*center 右部*/
+.changxiaohaoke .center-right{
+	float:right;
+	width:224px;
+}
+.changxiaohaoke .center-right ul{
+	width:224px;
+	height:140px;
+	background-color:#DDB602;
+}
+.changxiaohaoke .center-right ul li{
+	float:left;
+	width:174px;
+	margin:13px 0px 0px 20px;
+}
+.changxiaohaoke .center-right ul li a{
+	height:20px;
+	line-height:20px;
+	font-size:14px;
+	color:#fff;
+}
+.changxiaohaoke .center-right ul li a:hover{
+	text-decoration:underline;
+}
+.changxiaohaoke .wps{
+	width:225px;
+	height:325px;
+	overflow:hidden;
+	cursor:pointer;
+}
